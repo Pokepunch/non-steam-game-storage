@@ -90,7 +90,7 @@ const DeckyPluginRouterTest: VFC = () => {
 };
 
 export default definePlugin((serverApi: ServerAPI) => {
-  serverApi.routerHook.addRoute("/decky-plugin-test", DeckyPluginRouterTest, {
+  serverApi.routerHook.addRoute("/non-steam-game-storage", DeckyPluginRouterTest, {
     exact: true,
   });
 
@@ -99,7 +99,7 @@ export default definePlugin((serverApi: ServerAPI) => {
     content: <Content serverAPI={serverApi} />,
     icon: <FaShip />,
     onDismount() {
-      serverApi.routerHook.removeRoute("/decky-plugin-test");
+      serverApi.routerHook.removeRoute("/non-steam-game-storage");
     },
   };
 });

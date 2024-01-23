@@ -1,7 +1,7 @@
 {
-  "name": "decky-plugin-template",
+  "name": "non-steam-game-storage",
   "version": "0.0.1",
-  "description": "A template to quickly create decky plugins from scratch, based on TypeScript and webpack",
+  "description": "Plugin to show Non-Steam games in the Steam storage tab.",
   "scripts": {
     "build": "shx rm -rf dist && rollup -c",
     "watch": "rollup -c -w",
@@ -9,21 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SteamDeckHomebrew/decky-plugin-template.git"
+    "url": "git+https://github.com/Pokepunch/non-steam-game-storage.git"
   },
   "keywords": [
     "decky",
     "plugin",
-    "plugin-template",
+    "storage",
     "steam-deck",
     "deck"
   ],
   "author": "Jonas Dellinger <jonas@dellinger.dev>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/SteamDeckHomebrew/decky-plugin-template/issues"
+    "url": "https://github.com/Pokepunch/non-steam-game-storage/issues"
   },
-  "homepage": "https://github.com/SteamDeckHomebrew/decky-plugin-template#readme",
+  "homepage": "https://github.com/Pokepunch/non-steam-game-storage#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-json": "^4.1.0",
